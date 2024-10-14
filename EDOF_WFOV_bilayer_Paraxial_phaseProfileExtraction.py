@@ -3,12 +3,13 @@ Created on Mon Mar  4 13:58:58 2024
 
 We consider here two metasurfaces in series (bi-layer metasurfaces), 
 typically where the first one has a weakly focusing phase profile and 
-the second one has a strongly focusing phase profile.
+the second one has a strongly focusing phase profile.The script adjusts 
+the substrate thickness to optimize the parabolic phase profile.
+of the second lens and focus at a desired position ('focus'). The two 
+curves that the script outputs should align to ensure paraxial design
 
-The script adjusts the substrate thickness to optimize the parabolic phase profile.
-of the second lens and focus at a desired position ('focus'). 
-
-The two curves that the script outputs should align to ensure paraxial design
+Input: spacing between the two optical layers
+Output:phase profile of the second lens
 
 @author: Louis Martin
 """
