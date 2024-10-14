@@ -1,3 +1,7 @@
+#This script should be used after the correct phase profile of the 2nd lens 
+#is determined with the 'EDOF_WFOV_Bilayer_Paraxial_phaseProfileExtraction.py' script
+#The script characterizes the Point Spread Function as a point source propagates through the bi-layer to the imaging plane
+
 import csv, time
 import numpy as np
 import matplotlib.pyplot as plt
