@@ -1,3 +1,7 @@
+#This script takes a point source and propagates the resulting wave through the bilayer metasurface to the imaging plane
+#Input: the phase profiles of the two lenses
+#Output: the intensity profile
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
