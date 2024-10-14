@@ -1,6 +1,8 @@
-#This script takes a point source and propagates the resulting wave through the bilayer metasurface to the imaging plane
-#Input: the phase profiles of the two lenses
-#Output: the intensity profile
+#This script takes an experimentally obtained image, convolves it with the point spread function.
+#The result is a reconstructed image with improve quality (EDOF PSF restricts image quality)
+
+#Input: Intensity profile from camera
+#Output: Reconstructed Image
 
 import numpy as np
 import matplotlib.pyplot as plt
